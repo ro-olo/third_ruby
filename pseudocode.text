@@ -1,0 +1,15 @@
+Write a method stock_picker with prices as argument
+Prices is an array of stock prices
+The index gives the number of the day correspondig to the price, starting at 0
+Find the day with the lowest price, which can't be in -1 position
+The day with the lowest price is the buy_day
+It should come first than the sell_day
+Use a each_with_index 
+In it use an if in which price is setted to be lower then min_price
+If so min_price will be the price and buy_day will be the day
+The profit will be given by subtracting the price of the buy_day from the sell_day
+Define profit as price - min_price in order to have a check on te current day
+Confront profit and max_profit and update it (and the day too)
+Find the day with the higher price after the buy_day
+It will be the sell_day
+Return the index of the two days
